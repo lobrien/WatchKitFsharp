@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{f2a71f9b-5d33-465a-a702-920d77279786}") = "FWatch1", "FWatch1\FWatch1.fsproj", "{018295B3-1C6A-4AB4-99AA-6298E2C5CD46}"
+EndProject
+Project("{f2a71f9b-5d33-465a-a702-920d77279786}") = "WatchX", "WatchX\WatchX.fsproj", "{B2777324-A973-40D4-AB63-9E3D2A9C8254}"
+EndProject
+Project("{f2a71f9b-5d33-465a-a702-920d77279786}") = "WatchApp", "WatchApp\WatchApp.fsproj", "{D9A2AA0A-AE02-4A45-B5A4-9723B54AA9D9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|iPhoneSimulator = Debug|iPhoneSimulator
+		Release|iPhoneSimulator = Release|iPhoneSimulator
+		Debug|iPhone = Debug|iPhone
+		Release|iPhone = Release|iPhone
+		Ad-Hoc|iPhone = Ad-Hoc|iPhone
+		AppStore|iPhone = AppStore|iPhone
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{018295B3-1C6A-4AB4-99AA-6298E2C5CD46}.Ad-Hoc|iPhone.ActiveCfg = Ad-Hoc|iPhone
+		{018295B3-1C6A-4AB4-99AA-6298E2C5CD46}.Ad-Hoc|iPhone.Build.0 = Ad-Hoc|iPhone
+		{018295B3-1C6A-4AB4-99AA-6298E2C5CD46}.AppStore|iPhone.ActiveCfg = AppStore|iPhone
+		{018295B3-1C6A-4AB4-99AA-6298E2C5CD46}.AppStore|iPhone.Build.0 = AppStore|iPhone
+		{018295B3-1C6A-4AB4-99AA-6298E2C5CD46}.Debug|iPhone.ActiveCfg = Debug|iPhone
+		{018295B3-1C6A-4AB4-99AA-6298E2C5CD46}.Debug|iPhone.Build.0 = Debug|iPhone
+		{018295B3-1C6A-4AB4-99AA-6298E2C5CD46}.Debug|iPhoneSimulator.ActiveCfg = Debug|iPhoneSimulator
+		{018295B3-1C6A-4AB4-99AA-6298E2C5CD46}.Debug|iPhoneSimulator.Build.0 = Debug|iPhoneSimulator
+		{018295B3-1C6A-4AB4-99AA-6298E2C5CD46}.Release|iPhone.ActiveCfg = Release|iPhone
+		{018295B3-1C6A-4AB4-99AA-6298E2C5CD46}.Release|iPhone.Build.0 = Release|iPhone
+		{018295B3-1C6A-4AB4-99AA-6298E2C5CD46}.Release|iPhoneSimulator.ActiveCfg = Release|iPhoneSimulator
+		{018295B3-1C6A-4AB4-99AA-6298E2C5CD46}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
+		{B2777324-A973-40D4-AB63-9E3D2A9C8254}.Ad-Hoc|iPhone.ActiveCfg = Ad-Hoc|iPhone
+		{B2777324-A973-40D4-AB63-9E3D2A9C8254}.Ad-Hoc|iPhone.Build.0 = Ad-Hoc|iPhone
+		{B2777324-A973-40D4-AB63-9E3D2A9C8254}.AppStore|iPhone.ActiveCfg = AppStore|iPhone
+		{B2777324-A973-40D4-AB63-9E3D2A9C8254}.AppStore|iPhone.Build.0 = AppStore|iPhone
+		{B2777324-A973-40D4-AB63-9E3D2A9C8254}.Debug|iPhone.ActiveCfg = Debug|iPhone
+		{B2777324-A973-40D4-AB63-9E3D2A9C8254}.Debug|iPhone.Build.0 = Debug|iPhone
+		{B2777324-A973-40D4-AB63-9E3D2A9C8254}.Debug|iPhoneSimulator.ActiveCfg = Debug|iPhoneSimulator
+		{B2777324-A973-40D4-AB63-9E3D2A9C8254}.Debug|iPhoneSimulator.Build.0 = Debug|iPhoneSimulator
+		{B2777324-A973-40D4-AB63-9E3D2A9C8254}.Release|iPhone.ActiveCfg = Release|iPhone
+		{B2777324-A973-40D4-AB63-9E3D2A9C8254}.Release|iPhone.Build.0 = Release|iPhone
+		{B2777324-A973-40D4-AB63-9E3D2A9C8254}.Release|iPhoneSimulator.ActiveCfg = Release|iPhoneSimulator
+		{B2777324-A973-40D4-AB63-9E3D2A9C8254}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
+		{D9A2AA0A-AE02-4A45-B5A4-9723B54AA9D9}.Ad-Hoc|iPhone.ActiveCfg = Ad-Hoc|iPhone
+		{D9A2AA0A-AE02-4A45-B5A4-9723B54AA9D9}.Ad-Hoc|iPhone.Build.0 = Ad-Hoc|iPhone
+		{D9A2AA0A-AE02-4A45-B5A4-9723B54AA9D9}.AppStore|iPhone.ActiveCfg = AppStore|iPhone
+		{D9A2AA0A-AE02-4A45-B5A4-9723B54AA9D9}.AppStore|iPhone.Build.0 = AppStore|iPhone
+		{D9A2AA0A-AE02-4A45-B5A4-9723B54AA9D9}.Debug|iPhone.ActiveCfg = Debug|iPhone
+		{D9A2AA0A-AE02-4A45-B5A4-9723B54AA9D9}.Debug|iPhone.Build.0 = Debug|iPhone
+		{D9A2AA0A-AE02-4A45-B5A4-9723B54AA9D9}.Debug|iPhoneSimulator.ActiveCfg = Debug|iPhoneSimulator
+		{D9A2AA0A-AE02-4A45-B5A4-9723B54AA9D9}.Debug|iPhoneSimulator.Build.0 = Debug|iPhoneSimulator
+		{D9A2AA0A-AE02-4A45-B5A4-9723B54AA9D9}.Release|iPhone.ActiveCfg = Release|iPhone
+		{D9A2AA0A-AE02-4A45-B5A4-9723B54AA9D9}.Release|iPhone.Build.0 = Release|iPhone
+		{D9A2AA0A-AE02-4A45-B5A4-9723B54AA9D9}.Release|iPhoneSimulator.ActiveCfg = Release|iPhoneSimulator
+		{D9A2AA0A-AE02-4A45-B5A4-9723B54AA9D9}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
+	EndGlobalSection
+EndGlobal
