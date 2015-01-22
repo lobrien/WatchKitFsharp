@@ -11,7 +11,11 @@
                 <controller identifier="interfaceController" title="F#" id="AgC-eL-Hgc" customClass="InterfaceController">
                     <items>
                         <label width="1" alignment="left" text="Label" id="VCf-fb-IjG"/>
-                        <button width="1" alignment="left" title="Button" id="0eM-RI-A1Y"/>
+                        <button width="1" alignment="left" title="Press me!" id="0eM-RI-A1Y">
+                        	<connections>
+                                <action selector="OnButtonPress" destination="AgC-eL-Hgc" id="bfv-Dp-ZHb"/>
+                            </connections>
+						</button>
                     </items>
                     <connections>
                         <outlet property="myLabel" destination="VCf-fb-IjG" id="65z-zY-Pxe"/>
