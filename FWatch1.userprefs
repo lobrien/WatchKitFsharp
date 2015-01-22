@@ -1,1 +1,30 @@
-﻿<Properties StartupItem="FWatch1/FWatch1.fsproj" />
+﻿<Properties StartupItem="WatchX/WatchX.fsproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.IPhone6.8.2" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="WatchX/InterfaceController.fs">
+    <Files>
+      <File FileName="../WK2/WatchkitExtension/InterfaceController.cs" Line="1" Column="1" />
+      <File FileName="WatchX/InterfaceController.fs" Line="5" Column="5" />
+      <File FileName="WatchX/Info.plist" />
+      <File FileName="WatchAppCS/Info.plist" />
+      <File FileName="FWatch1/Info.plist" />
+      <File FileName="../WK2/WatchkitExtension/InterfaceController.designer.cs" Line="33" Column="33" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State expanded="True">
+          <Node name="FWatch1" expanded="True" />
+          <Node name="WatchAppCS" expanded="True" selected="True">
+            <Node name="References" expanded="True" />
+          </Node>
+          <Node name="WatchX" expanded="True">
+            <Node name="References" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

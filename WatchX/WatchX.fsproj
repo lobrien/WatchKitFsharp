@@ -118,15 +118,14 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Conversions.fs" />
-    <Compile Include="KeyboardViewController.fs" />
-    <Compile Include="AppDelegate.fs" />
+    <Compile Include="InterfaceController.fs" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.FSharp.targets" />
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.AppExtension.FSharp.targets" />
   <ItemGroup>
-    <ProjectReference Include="..\WatchApp\WatchApp.fsproj">
-      <Project>{D9A2AA0A-AE02-4A45-B5A4-9723B54AA9D9}</Project>
-      <Name>WatchApp</Name>
+    <ProjectReference Include="..\WatchAppCS\WatchAppCS.csproj">
+      <Project>{476360D8-05DD-49E2-90A1-8A3011DF75DE}</Project>
+      <Name>WatchAppCS</Name>
       <IsWatchApp>True</IsWatchApp>
     </ProjectReference>
   </ItemGroup>

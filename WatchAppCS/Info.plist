@@ -5,11 +5,13 @@
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleDisplayName</key>
-	<string>WatchX</string>
+	<string>WatchAppCS</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.xamarin.FWatch1.watchkitapp</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
-	<string>F# Watch Extension</string>
+	<string>com.your-company.WatchAppCS</string>
 	<key>CFBundlePackageType</key>
 	<string>XPC!</string>
 	<key>CFBundleShortVersionString</key>
@@ -18,21 +20,14 @@
 	<string>????</string>
 	<key>CFBundleVersion</key>
 	<string>1</string>
-	<key>NSExtension</key>
-	<dict>
-		<key>NSExtensionAttributes</key>
-		<dict>
-			<key>WKAppBundleIdentifier</key>
-			<string>com.xamarin.FWatch1.watchkitapp</string>
-		</dict>
-		<key>NSExtensionPointIdentifier</key>
-		<string>com.apple.watchkit</string>
-	</dict>
-	<key>CFBundleIdentifier</key>
-	<string>com.xamarin.FWatch1.watchkitextension</string>
-	<key>RemoteInterfacePrincipleClass</key>
-	<string>InterfaceController</string>
-	<key>MinimumOSVersion</key>
-	<string>8.2</string>
+	<key>UISupportedInterfaceOrientations</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+		<string>UIInterfaceOrientationPortraitUpsideDown</string>
+	</array>
+	<key>WKCompanionAppBundleIdentifier</key>
+	<string>com.your-company.WatchAppCS</string>
+	<key>WKWatchKitApp</key>
+	<true/>
 </dict>
 </plist>
